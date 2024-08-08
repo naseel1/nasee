@@ -27,7 +27,7 @@
   $contact->smtp = array(
     'host' => 'https://naseel1.github.io/nasee/',
     'username' => 'naseel1',
-    'password' => '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',
+    'password' => '0055',
     'port' => '5432'
   );
 
@@ -37,4 +37,3 @@
 
   echo $contact->send();
 ?>
-
