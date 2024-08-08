@@ -25,10 +25,10 @@
 
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
   $contact->smtp = array(
-    'host' => 'http://localhost:63342/odoo-16/odoo-16/custom_addons/nasee/index.html?_ijt=6mnq2v3u6i5k4dtdsdghd5qt6t&_ij_reload=RELOAD_ON_SAVE',
-    'username' => 'naseel',
-    'password' => '0055',
-    'port' => '568'
+    'host' => 'https://naseel1.github.io/nasee/',
+    'username' => 'naseel1',
+    'password' => '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',
+    'port' => '5432'
   );
 
   $contact->add_message( $_POST['name'], 'From');
@@ -37,3 +37,4 @@
 
   echo $contact->send();
 ?>
+
